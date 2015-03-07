@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Graphics</key>
+	<dict>
+		<key>FBName</key>
+		<string>Duckweed</string>
+		<key>Inject</key>
+		<dict>
+			<key>ATI</key>
+			<true/>
+		</dict>
+		<key>VideoPorts</key>
+		<integer>4</integer>
+	</dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>ATIConnectorsController</key>
+		<string>6000</string>
+		<key>ATIConnectorsData</key>
+		<string>00040000040300000001000012040401000400000403000000010000220505020008000004020000000100001102030400020000140200000001000000000605</string>
+		<key>ATIConnectorsPatch</key>
+		<string>00020000040000000001000011020106000800000002000000010000220506040004000004030000000100001204040104000000140200000001000010000305</string>
+	</dict>
+</dict>
+</plist>
