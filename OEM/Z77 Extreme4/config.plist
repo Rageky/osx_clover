@@ -597,7 +597,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Fix kernel panic for 10.10.2 (Step 1)</string>
+				<string>Fix kernel panic for 10.10.3 (Step 1)</string>
 				<key>Name</key>
 				<string>AppleIntelCPUPowerManagement</string>
 				<key>Find</key>
@@ -614,7 +614,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix kernel panic for 10.10.2 (Step 2)</string>
+				<string>Fix kernel panic for 10.10.3 (Step 2)</string>
 				<key>Name</key>
 				<string>AppleIntelCPUPowerManagement</string>
 				<key>Find</key>
@@ -631,7 +631,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix kernel panic for 10.10.2 (Step 3)</string>
+				<string>Fix kernel panic for 10.10.3 (Step 3)</string>
 				<key>Name</key>
 				<string>AppleIntelCPUPowerManagement</string>
 				<key>Find</key>
@@ -644,40 +644,6 @@
 					<string>b9e20000004889f80f30</string>
 					<key>Replace</key>
 					<string>b9e20000004889f89090</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix kernel panic for 10.9.5 (Step 1)</string>
-				<key>Name</key>
-				<string>AppleIntelCPUPowerManagement</string>
-				<key>Find</key>
-				<data>ueIAAAAPMA==</data>
-				<key>Replace</key>
-				<data>ueIAAACQkA==</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>b9e20000000f30</string>
-					<key>Replace</key>
-					<string>b9e20000009090</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix kernel panic for 10.9.5 (Step 2)</string>
-				<key>Name</key>
-				<string>AppleIntelCPUPowerManagement</string>
-				<key>Find</key>
-				<data>ueIAAABIifIPMA==</data>
-				<key>Replace</key>
-				<data>ueIAAABIifKQkA==</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>b9e20000004889f20f30</string>
-					<key>Replace</key>
-					<string>b9e20000004889f29090</string>
 				</dict>
 			</dict>
 			<dict>
@@ -699,24 +665,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix CMOS reset for 10.10.2</string>
-				<key>Name</key>
-				<string>AppleRTC</string>
-				<key>Find</key>
-				<data>dS4Ptg==</data>
-				<key>Replace</key>
-				<data>6y4Ptg==</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>752e0fb6</string>
-					<key>Replace</key>
-					<string>eb2e0fb6</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix CMOS reset for 10.9.5</string>
+				<string>Fix CMOS reset for 10.10.3</string>
 				<key>Name</key>
 				<string>AppleRTC</string>
 				<key>Find</key>
@@ -801,7 +750,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.2 (Step 1) - Disable Intel and Fresco Logic USB3.0 controllers check</string>
+				<string>Enable USB 3.0 for 10.10.3 (Step 1) - Disable Intel and Fresco Logic USB3.0 controllers check</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -818,7 +767,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.2 (Step 2) - Disable XHCI 1.0 check</string>
+				<string>Enable USB 3.0 for 10.10.3 (Step 2) - Disable XHCI 1.0 check</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -835,7 +784,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.2 (Step 3) - Patch MSI or pin interrupts</string>
+				<string>Enable USB 3.0 for 10.10.3 (Step 3) - Patch MSI or pin interrupts</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -852,7 +801,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.2 (Step 4) - Patch MSI or pin interrupts</string>
+				<string>Enable USB 3.0 for 10.10.3 (Step 4) - Patch MSI or pin interrupts</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -869,7 +818,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.2 (Step 5) - Disable the sleep code leaving the controller in non-working state after wake</string>
+				<string>Enable USB 3.0 for 10.10.3 (Step 5) - Disable the sleep code leaving the controller in non-working state after wake</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -886,7 +835,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.2 (Step 6) - Enable PCI power management if there is no such code in DSDT</string>
+				<string>Enable USB 3.0 for 10.10.3 (Step 6) - Enable PCI power management if there is no such code in DSDT</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -903,109 +852,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.9.5 (Step 1) - Disable Intel and Fresco Logic USB3.0 controllers check</string>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Find</key>
-				<data>9oDUAAAAgHU6</data>
-				<key>Replace</key>
-				<data>9oDUAAAAgOs6</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>f680d400000080753a</string>
-					<key>Replace</key>
-					<string>f680d400000080eb3a</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.9.5 (Step 2) - Disable XHCI 1.0 check</string>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Find</key>
-				<data>Zj0AAQ==</data>
-				<key>Replace</key>
-				<data>Zj0AAA==</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>663d0001</string>
-					<key>Replace</key>
-					<string>663d0000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.9.5 (Step 3) - Patch MSI or pin interrupts</string>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Find</key>
-				<data>gUkIAABAAA==</data>
-				<key>Replace</key>
-				<data>gUkIAAAAAA==</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>81490800004000</string>
-					<key>Replace</key>
-					<string>81490800000000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.9.5 (Step 4) - Patch MSI or pin interrupts</string>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Find</key>
-				<data>QcdHCAAAQAA=</data>
-				<key>Replace</key>
-				<data>QcdHCAAAAAA=</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>41c7470800004000</string>
-					<key>Replace</key>
-					<string>41c7470800000000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.9.5 (Step 5) - Disable the sleep code leaving the controller in non-working state after wake</string>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Find</key>
-				<data>xoDIAAAAAQ==</data>
-				<key>Replace</key>
-				<data>xoDIAAAAAA==</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>c680c800000001</string>
-					<key>Replace</key>
-					<string>c680c800000000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.9.5 (Step 6) - Enable PCI power management if there is no such code in DSDT</string>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Find</key>
-				<data>dU1Ii7voAQAA</data>
-				<key>Replace</key>
-				<data>601Ii7voAQAA</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>754d488bbbe8010000</string>
-					<key>Replace</key>
-					<string>eb4d488bbbe8010000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.2 (Step 2)</string>
+				<string>Enable Broadcom 57781 for 10.10.3 (Step 2)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -1022,7 +869,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.2 (Step 3)</string>
+				<string>Enable Broadcom 57781 for 10.10.3 (Step 3)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -1039,7 +886,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.2 (Step 4)</string>
+				<string>Enable Broadcom 57781 for 10.10.3 (Step 4)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -1056,75 +903,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.2 (Step 5)</string>
-				<key>Name</key>
-				<string>AppleBCM5701Ethernet</string>
-				<key>Find</key>
-				<data>ADU3NzY1AA==</data>
-				<key>Replace</key>
-				<data>ADU3NzgxAA==</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>00353737363500</string>
-					<key>Replace</key>
-					<string>00353737383100</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.9.5 (Step 2)</string>
-				<key>Name</key>
-				<string>AppleBCM5701Ethernet</string>
-				<key>Find</key>
-				<data>6H+o//9miYM=</data>
-				<key>Replace</key>
-				<data>uLQWAABmiYM=</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>e87fa8ffff668983</string>
-					<key>Replace</key>
-					<string>b8b4160000668983</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.9.5 (Step 3)</string>
-				<key>Name</key>
-				<string>AppleBCM5701Ethernet</string>
-				<key>Find</key>
-				<data>6I2n//9miYM=</data>
-				<key>Replace</key>
-				<data>uOQUAABmiYM=</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>e88da7ffff668983</string>
-					<key>Replace</key>
-					<string>b8e4140000668983</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.9.5 (Step 4)</string>
-				<key>Name</key>
-				<string>AppleBCM5701Ethernet</string>
-				<key>Find</key>
-				<data>6HKn//9miYM=</data>
-				<key>Replace</key>
-				<data>uLQWAABmiYM=</data>
-				<key>Hexadecimal</key>
-				<dict>
-					<key>Find</key>
-					<string>e872a7ffff668983</string>
-					<key>Replace</key>
-					<string>b8b4160000668983</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.9.5 (Step 5)</string>
+				<string>Enable Broadcom 57781 for 10.10.3 (Step 5)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
