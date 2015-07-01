@@ -242,13 +242,13 @@
 	<key>Boot</key>
 	<dict>
 		<key>#Arguments</key>
-		<string>-v arch=x86_64 slide=0 darwake=0</string>
+		<string>-v arch=x86_64 slide=0 darkwake=0</string>
 		<key>#LegacyBiosDefaultEntry</key>
 		<integer>0</integer>
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1</string>
+		<string>kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -508,6 +508,10 @@
 		<false/>
 		<key>#NVCAP</key>
 		<string>04000000000003000C0000000000000A00000000</string>
+		<key>#NvidiaGeneric</key>
+		<true/>
+		<key>#NvidiaSingle</key>
+		<false/>
 		<key>#PatchVBios</key>
 		<false/>
 		<key>#PatchVBiosBytes</key>
@@ -567,20 +571,6 @@
 				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<string>0x44220000</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Trim enabler</string>
-				<key>Find</key>
-				<data>
-				QVBQTEUgU1NE
-				</data>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAA
-				</data>
 			</dict>
 			<dict>
 				<key>Find</key>

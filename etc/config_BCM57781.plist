@@ -16,7 +16,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 1)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 1)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>InfoPlistPatch</key>
@@ -28,7 +28,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 2)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 2)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -45,7 +45,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 3)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 3)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -62,7 +62,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 4)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 4)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -79,7 +79,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 5)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 5)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>

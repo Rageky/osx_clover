@@ -62,33 +62,49 @@
 					<key>Comment</key>
 					<string>Remove battery device from desktop</string>
 					<key>Find</key>
-					<data>W4IeQkFUMQhfSElEDEHQDAoIX1VJRAEUCF9TVEEApAA=</data>
+					<data>
+					W4IeQkFUMQhfSElEDEHQDAoIX1VJRAEUCF9T
+					VEEApAA=
+					</data>
 					<key>Replace</key>
-					<data></data>
+					<data>
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Add _SUN property for GIGE</string>
 					<key>Find</key>
-					<data>UFhTWAhfQURSAAhfUFJXEgYC</data>
+					<data>
+					UFhTWAhfQURSAAhfUFJXEgYC
+					</data>
 					<key>Replace</key>
-					<data>UFhTWAhfQURSAAhfU1VOCgQIX1BSVxIGAg==</data>
+					<data>
+					UFhTWAhfQURSAAhfU1VOCgQIX1BSVxIGAg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Rename GFX0 to IGPU</string>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Rename HDEF to AZAL</string>
 					<key>Find</key>
-					<data>SERFRg==</data>
+					<data>
+					SERFRg==
+					</data>
 					<key>Replace</key>
-					<data>QVpBTA==</data>
+					<data>
+					QVpBTA==
+					</data>
 				</dict>
 			</array>
 			<key>#Rtc8Allowed</key>
@@ -236,7 +252,7 @@
 		<key>XMPDetection</key>
 		<string>1</string>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 -v darkwake=0 dart=0</string>
+		<string>kext-dev-mode=1 rootless=0 -v darkwake=0 dart=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -350,7 +366,9 @@
 				<key>Key</key>
 				<string>AAPL,HasPanel</string>
 				<key>Value</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -358,7 +376,9 @@
 				<key>Key</key>
 				<string>AAPL,Haslid</string>
 				<key>Value</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 			</dict>
 		</array>
 		<key>#ForceHPET</key>
@@ -543,7 +563,11 @@
 		<key>#Connectors</key>
 		<array/>
 		<key>#CustomEDID</key>
-		<data>AP///////wAyDADfAAAAAAASAQOAIRV4CunVmVlTjigmUFQAAAABAQEBAQEBAQEBAQEBAQEB3iGgcFCEHzAgIFYAS88QAAAY3iGgcFCEHzAgIFYAS88QAAAAAAAA/gBXNjU3RwAxNTRXUDEKAAAA/gAjMz1IZYSq/wIBCiAgAJo=</data>
+		<data>
+		AP///////wAyDADfAAAAAAASAQOAIRV4CunVmVlTjigmUFQAAAABAQEBAQEB
+		AQEBAQEBAQEB3iGgcFCEHzAgIFYAS88QAAAY3iGgcFCEHzAgIFYAS88QAAAA
+		AAAA/gBXNjU3RwAxNTRXUDEKAAAA/gAjMz1IZYSq/wIBCiAgAJo=
+		</data>
 		<key>#DualLink</key>
 		<integer>0</integer>
 		<key>FBName</key>
@@ -563,15 +587,23 @@
 		<false/>
 		<key>#NVCAP</key>
 		<string>04000000000003000C0000000000000A00000000</string>
+		<key>#NvidiaGeneric</key>
+		<true/>
+		<key>#NvidiaSingle</key>
+		<false/>
 		<key>#PatchVBios</key>
 		<false/>
 		<key>#PatchVBiosBytes</key>
 		<array>
 			<dict>
 				<key>Find</key>
-				<data>gAeoAqAF</data>
+				<data>
+				gAeoAqAF
+				</data>
 				<key>Replace</key>
-				<data>gAeoAjgE</data>
+				<data>
+				gAeoAjgE
+				</data>
 			</dict>
 		</array>
 		<key>#VRAM</key>
@@ -597,7 +629,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Fix kernel panic for 10.10.3 (Step 1)</string>
+				<string>Fix kernel panic for 10.10.4 (Step 1)</string>
 				<key>Name</key>
 				<string>AppleIntelCPUPowerManagement</string>
 				<key>Find</key>
@@ -614,7 +646,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix kernel panic for 10.10.3 (Step 2)</string>
+				<string>Fix kernel panic for 10.10.4 (Step 2)</string>
 				<key>Name</key>
 				<string>AppleIntelCPUPowerManagement</string>
 				<key>Find</key>
@@ -631,7 +663,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix kernel panic for 10.10.3 (Step 3)</string>
+				<string>Fix kernel panic for 10.10.4 (Step 3)</string>
 				<key>Name</key>
 				<string>AppleIntelCPUPowerManagement</string>
 				<key>Find</key>
@@ -665,7 +697,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix CMOS reset for 10.10.3</string>
+				<string>Fix CMOS reset for 10.10.4</string>
 				<key>Name</key>
 				<string>AppleRTC</string>
 				<key>Find</key>
@@ -750,7 +782,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.3 (Step 1) - Disable Intel and Fresco Logic USB3.0 controllers check</string>
+				<string>Enable USB 3.0 for 10.10.4 (Step 1) - Disable Intel and Fresco Logic USB3.0 controllers check</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -767,7 +799,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.3 (Step 2) - Disable XHCI 1.0 check</string>
+				<string>Enable USB 3.0 for 10.10.4 (Step 2) - Disable XHCI 1.0 check</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -784,7 +816,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.3 (Step 3) - Patch MSI or pin interrupts</string>
+				<string>Enable USB 3.0 for 10.10.4 (Step 3) - Patch MSI or pin interrupts</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -801,7 +833,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.3 (Step 4) - Patch MSI or pin interrupts</string>
+				<string>Enable USB 3.0 for 10.10.4 (Step 4) - Patch MSI or pin interrupts</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -818,7 +850,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.3 (Step 5) - Disable the sleep code leaving the controller in non-working state after wake</string>
+				<string>Enable USB 3.0 for 10.10.4 (Step 5) - Disable the sleep code leaving the controller in non-working state after wake</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -835,7 +867,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.3 (Step 6) - Enable PCI power management if there is no such code in DSDT</string>
+				<string>Enable USB 3.0 for 10.10.4 (Step 6) - Enable PCI power management if there is no such code in DSDT</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -852,7 +884,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 2)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 2)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -869,7 +901,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 3)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 3)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -886,7 +918,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 4)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 4)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -903,7 +935,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Broadcom 57781 for 10.10.3 (Step 5)</string>
+				<string>Enable Broadcom 57781 for 10.10.4 (Step 5)</string>
 				<key>Name</key>
 				<string>AppleBCM5701Ethernet</string>
 				<key>Find</key>
@@ -1033,11 +1065,11 @@
 			</dict>
 			<dict>
 				<key>Device</key>
-				<string>LAN</string>
+				<string>WIFI</string>
 				<key>ID</key>
 				<integer>0</integer>
 				<key>Name</key>
-				<string>LAN</string>
+				<string>Airport</string>
 				<key>Type</key>
 				<integer>1</integer>
 			</dict>
