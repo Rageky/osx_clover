@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.4 (Step 1) - Disable Intel &amp; Fresco Logic USB3.0 controllers check</string>
+				<string>Enable USB 3.0 for 10.10.5 (Step 1) - Disable Intel &amp; Fresco Logic USB3.0 controllers check</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -25,7 +25,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.4 (Step 2) - Disable XHCI 1.0 check</string>
+				<string>Enable USB 3.0 for 10.10.5 (Step 2) - Disable XHCI 1.0 check</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -42,7 +42,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.4 (Step 3) - Patch MSI or pin interrupts</string>
+				<string>Enable USB 3.0 for 10.10.5 (Step 3) - Patch MSI or pin interrupts</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -59,7 +59,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.4 (Step 4) - Patch MSI or pin interrupts</string>
+				<string>Enable USB 3.0 for 10.10.5 (Step 4) - Patch MSI or pin interrupts</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -76,7 +76,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.4 (Step 5) - Disable the sleep code leaving the controller in non-working state after wake</string>
+				<string>Enable USB 3.0 for 10.10.5 (Step 5) - Disable the sleep code leaving the controller in non-working state after wake</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
@@ -93,7 +93,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable USB 3.0 for 10.10.4 (Step 6) - Enable PCI power management if there is no such code in DSDT</string>
+				<string>Enable USB 3.0 for 10.10.5 (Step 6) - Enable PCI power management if there is no such code in DSDT</string>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Find</key>
